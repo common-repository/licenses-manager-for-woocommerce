@@ -1,0 +1,1341 @@
+# Copyright (C) 2024 QuadLayers
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Licenses Manager for WooCommerce 2.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/licenses-manager-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-10T13:37:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: licenses-manager-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: licenses-manager-for-woocommerce.php
+msgid "Licenses Manager for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: licenses-manager-for-woocommerce.php
+msgid "https://quadlayers.com/products/woocommerce-license-manager/"
+msgstr ""
+
+#. Description of the plugin
+#: licenses-manager-for-woocommerce.php
+msgid "Licenses Manager for WooCommerce is a complete solution for selling digital products on WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: licenses-manager-for-woocommerce.php
+#: lib/backend/controller/products/class-wordpress.php:68
+msgid "QuadLayers"
+msgstr ""
+
+#. Author URI of the plugin
+#: licenses-manager-for-woocommerce.php
+msgid "https://quadlayers.com"
+msgstr ""
+
+#. Translators: The license is invalid.
+#: lib/api/endpoints/frontend/activation/class-create.php:46
+#: lib/api/endpoints/frontend/license/class-delete.php:37
+#: lib/api/endpoints/frontend/license/class-get.php:37
+#: lib/api/endpoints/frontend/license/class-reset.php:38
+msgid "The license %s is invalid."
+msgstr ""
+
+#. Translators: The license email is required.
+#. Translators: The product key is required.
+#: lib/api/endpoints/frontend/activation/class-create.php:54
+#: lib/api/endpoints/frontend/activation/class-create.php:68
+msgid "The %s is required."
+msgstr ""
+
+#. Translators: No products found for the product key.
+#: lib/api/endpoints/frontend/activation/class-create.php:78
+#: lib/api/endpoints/frontend/license/class-create.php:44
+#: lib/api/endpoints/frontend/product/class-information.php:50
+msgid "No products found for the product_key %s."
+msgstr ""
+
+#. Translators: The license does not match this product key.
+#: lib/api/endpoints/frontend/activation/class-create.php:88
+msgid "The license %1$s doesn't match this product key."
+msgstr ""
+
+#. Translators: The order id is not found.
+#: lib/api/endpoints/frontend/activation/class-create.php:103
+msgid "The %1$s %2$s is not found."
+msgstr ""
+
+#. Translators: The order id matching this license.
+#: lib/api/endpoints/frontend/activation/class-create.php:111
+msgid "The %1$s %2$s matching this license is %3$s."
+msgstr ""
+
+#. Translators: The email does not match the order email.
+#: lib/api/endpoints/frontend/activation/class-create.php:119
+msgid "The email %1$s dosen't match the %2$s email."
+msgstr ""
+
+#: lib/api/endpoints/frontend/activation/class-create.php:135
+msgid "Remaining activations is equal to zero."
+msgstr ""
+
+#: lib/api/endpoints/frontend/activation/class-create.php:147
+msgid "Can't activate the license."
+msgstr ""
+
+#. Translators: Your license have been banned for the site. Please contact site admin.
+#: lib/api/endpoints/frontend/activation/class-create.php:157
+msgid "Your license %1$s have been banned for the site %2$s. Please contact site admin in %3$s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/activation/class-delete.php:41
+#: lib/api/endpoints/frontend/activation/class-get.php:41
+#: lib/api/endpoints/frontend/download/class-handler.php:27
+msgid "The activation instance provided is invalid."
+msgstr ""
+
+#. Translators: Your license have been banned for the site. Please contact site admin.
+#: lib/api/endpoints/frontend/activation/class-delete.php:48
+#: lib/api/endpoints/frontend/activation/class-get.php:48
+#: lib/api/endpoints/frontend/download/class-handler.php:34
+msgid "Your site license %1$s have been banned for the site %2$s. Please contact site admin in %3$s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/activation/class-delete.php:62
+msgid "Unknown error."
+msgstr ""
+
+#: lib/api/endpoints/frontend/download/class-handler.php:41
+msgid "The license has expired on %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/download/class-handler.php:50
+msgid "License doesn't match any product ID: %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/download/class-handler.php:59
+msgid "Can't find any file path for product id %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/download/class-handler.php:66
+msgid "Can't find class %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-create.php:28
+msgid "We can't validate your secret key with product key %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-create.php:35
+msgid "Can't find product ID: %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-create.php:58
+msgid "Product %1$s dosen't match the product key id %2$s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-create.php:71
+msgid "Can't find order ID: %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-create.php:96
+msgid "We can't create your license key."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-delete.php:24
+#: lib/api/endpoints/frontend/license/class-get.php:24
+#: lib/api/endpoints/frontend/license/class-reset.php:25
+msgid "We can't validate your secret key %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-delete.php:50
+msgid "We can't delete the license %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/license/class-reset.php:52
+msgid "No activations."
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-information.php:59
+msgid "No products found for the product_id %s."
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-update.php:18
+msgid "License key is not defined"
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-update.php:25
+msgid "Activation instance is not defined"
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-update.php:57
+msgid "The activation instance provided is invalid"
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-update.php:64
+msgid "License doesn't match any product ID: %s"
+msgstr ""
+
+#: lib/api/endpoints/frontend/product/class-update.php:72
+msgid "Automatic update file is not defined for product %s"
+msgstr ""
+
+#: lib/backend/class-load.php:47
+#: lib/backend/controller/orders/class-license.php:229
+#: lib/backend/controller/reports/class-load.php:35
+#: lib/backend/controller/settings/class-account.php:34
+#: lib/backend/controller/settings/class-account.php:45
+#: lib/backend/controller/settings/class-account.php:56
+#: lib/backend/controller/settings/class-account.php:57
+#: lib/backend/controller/settings/class-email.php:32
+#: lib/backend/controller/settings/class-email.php:33
+#: lib/backend/controller/settings/class-email.php:48
+#: lib/backend/controller/settings/class-product.php:33
+#: lib/backend/controller/settings/class-product.php:48
+#: lib/frontend/controller/order/class-licenses.php:17
+#: templates/myaccount/licenses.php:1
+msgid "Licenses"
+msgstr ""
+
+#: lib/backend/controller/orders/class-license.php:216
+msgid "Create"
+msgstr ""
+
+#: lib/backend/controller/orders/class-license.php:238
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:68
+#: templates/license/view.php:82
+#: templates/license/view.php:136
+msgid "Activations"
+msgstr ""
+
+#: lib/backend/controller/orders/class-table.php:13
+#: lib/backend/controller/orders/class-table.php:30
+#: lib/backend/controller/orders/view/html-order-activations.php:6
+#: lib/backend/controller/products/class-load.php:27
+#: lib/backend/controller/products/simple/class-license.php:15
+#: lib/backend/controller/products/variable/class-license.php:73
+#: lib/backend/controller/settings/class-envato.php:54
+#: lib/backend/controller/settings/class-license.php:12
+#: lib/backend/controller/settings/class-license.php:27
+#: lib/backend/controller/settings/class-license.php:91
+#: templates/license/view.php:54
+#: templates/myaccount/licenses.php:16
+#: templates/myaccount/licenses.php:38
+msgid "License"
+msgstr ""
+
+#: lib/backend/controller/orders/class-table.php:30
+msgid "This is a license order."
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:7
+msgid "Instance"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:8
+#: lib/backend/controller/settings/class-license.php:80
+#: lib/backend/controller/settings/class-product.php:12
+#: lib/backend/controller/settings/class-product.php:27
+#: lib/backend/controller/tables/view/class-list-table-activations.php:62
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:62
+#: templates/license/view.php:78
+#: templates/myaccount/licenses.php:13
+#: templates/myaccount/licenses.php:29
+msgid "Product"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:9
+#: lib/backend/controller/tables/view/class-list-table-activations.php:67
+#: templates/license/view.php:140
+msgid "Activation Status"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:10
+#: lib/backend/controller/tables/view/class-list-table-activations.php:70
+#: templates/license/view.php:141
+msgid "Activation Created"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:11
+#: lib/backend/controller/tables/view/class-list-table-activations.php:69
+#: templates/license/view.php:142
+msgid "Activation Site"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:12
+msgid "Activation Action"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:26
+msgid "Activate"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:26
+msgid "Deactivate"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:27
+#: lib/backend/controller/orders/view/html-order-licenses.php:7
+#: lib/backend/controller/tables/view/class-list-table.php:18
+msgid "Delete"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-activations.php:35
+#: templates/license/view.php:156
+msgid "No activations yet"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-create.php:4
+msgid "Choose a software product&hellip;"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-create.php:19
+msgid "Add License Key"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:8
+msgid "Click to toggle"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:9
+#: lib/backend/controller/orders/view/html-order-licenses.php:16
+#: lib/backend/controller/tables/view/class-list-table-activations.php:63
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:63
+#: templates/myaccount/licenses.php:14
+#: templates/myaccount/licenses.php:32
+msgid "Key"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:20
+#: lib/backend/controller/products/class-envato.php:75
+#: lib/backend/controller/products/simple/class-license.php:71
+#: lib/backend/controller/settings/class-email.php:12
+#: lib/backend/controller/settings/class-email.php:27
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:64
+#: templates/license/view.php:62
+msgid "Email"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:27
+#: lib/backend/controller/orders/view/html-order-licenses.php:48
+#: lib/backend/controller/orders/view/html-order-licenses.php:65
+#: lib/backend/controller/products/class-envato.php:79
+#: lib/backend/controller/products/class-envato.php:101
+#: lib/backend/controller/products/class-envato.php:113
+#: lib/backend/controller/products/class-wordpress.php:133
+#: lib/backend/controller/products/class-wordpress.php:145
+#: lib/backend/controller/products/simple/class-license.php:75
+#: lib/backend/controller/products/simple/class-license.php:100
+#: lib/backend/controller/products/simple/class-license.php:113
+#: lib/backend/controller/products/variable/class-license.php:183
+#: lib/backend/controller/settings/class-envato.php:39
+#: lib/backend/controller/settings/class-envato.php:91
+#: lib/backend/controller/settings/class-envato.php:112
+#: lib/backend/controller/settings/class-envato.php:124
+msgid "Yes"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:33
+#: lib/backend/controller/orders/view/html-order-licenses.php:54
+#: lib/backend/controller/orders/view/html-order-licenses.php:71
+#: lib/backend/controller/products/class-envato.php:80
+#: lib/backend/controller/products/class-envato.php:102
+#: lib/backend/controller/products/class-envato.php:114
+#: lib/backend/controller/products/class-wordpress.php:134
+#: lib/backend/controller/products/class-wordpress.php:146
+#: lib/backend/controller/products/simple/class-license.php:76
+#: lib/backend/controller/products/simple/class-license.php:101
+#: lib/backend/controller/products/simple/class-license.php:114
+#: lib/backend/controller/products/variable/class-license.php:184
+#: lib/backend/controller/settings/class-envato.php:38
+#: lib/backend/controller/settings/class-envato.php:90
+#: lib/backend/controller/settings/class-envato.php:111
+#: lib/backend/controller/settings/class-envato.php:123
+#: lib/models/license/class-entity.php:229
+msgid "No"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:37
+#: lib/backend/controller/products/class-envato.php:88
+#: lib/backend/controller/products/simple/class-license.php:85
+#: lib/backend/controller/settings/class-envato.php:76
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:67
+msgid "Activations Limit"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:38
+#: lib/backend/controller/orders/view/html-order-licenses.php:76
+#: lib/backend/controller/products/class-envato.php:90
+#: lib/backend/controller/products/class-envato.php:124
+#: lib/backend/controller/products/simple/class-license.php:87
+#: lib/backend/controller/products/simple/class-license.php:128
+#: lib/models/license/class-entity.php:235
+msgid "Unlimited"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:41
+msgid "Updates Limit"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:58
+#: lib/backend/controller/products/class-envato.php:109
+#: lib/backend/controller/products/simple/class-license.php:109
+#: lib/backend/controller/settings/class-envato.php:66
+msgid "Support Limit"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:75
+#: lib/backend/controller/tables/view/class-list-table-activations.php:66
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:69
+#: templates/license/view.php:70
+msgid "Expiration"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:81
+msgid "This license was created for the product %1$s on %2$s and expires on %3$s"
+msgstr ""
+
+#: lib/backend/controller/orders/view/html-order-licenses.php:90
+msgid "No license yet"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:12
+#: lib/backend/controller/settings/class-envato.php:12
+#: lib/backend/controller/settings/class-envato.php:27
+msgid "Envato"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:55
+msgid "Item Id"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:56
+msgid "Include the envato item id."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:57
+#: lib/backend/controller/products/class-envato.php:68
+msgid "00000000"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:66
+msgid "Product Id"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:67
+msgid "Select the variation product id."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:76
+#: lib/backend/controller/products/simple/class-license.php:72
+msgid "Require order email on license activation."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:89
+#: lib/backend/controller/products/simple/class-license.php:86
+msgid "Limit amount of activations per license key."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:97
+#: lib/backend/controller/products/simple/class-license.php:96
+msgid "Automatic Updates Limit"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:98
+#: lib/backend/controller/products/simple/class-license.php:97
+msgid "Limit automatic updates on license expiration."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:110
+#: lib/backend/controller/products/simple/class-license.php:110
+msgid "Limit support on license expiration."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:122
+#: lib/backend/controller/products/simple/class-license.php:126
+msgid "Period"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:123
+#: lib/backend/controller/products/simple/class-license.php:127
+msgid "License expiration period."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:131
+#: lib/backend/controller/products/simple/class-license.php:137
+msgid "Units"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:132
+#: lib/backend/controller/products/simple/class-license.php:138
+msgid "License expiration period unit."
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:135
+#: lib/backend/controller/products/simple/class-license.php:141
+msgid "Days"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:136
+#: lib/backend/controller/products/simple/class-license.php:142
+msgid "Months"
+msgstr ""
+
+#: lib/backend/controller/products/class-envato.php:137
+#: lib/backend/controller/products/simple/class-license.php:143
+msgid "Years"
+msgstr ""
+
+#: lib/backend/controller/products/class-load.php:28
+#: lib/backend/controller/products/variable/class-license.php:72
+msgid "Enable this option if you want to manage license keys"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:13
+msgid "Software"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:40
+msgid "Copy and paste in your client"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:56
+msgid "Product key"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:57
+msgid "Public product key to use for API"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:67
+msgid "Secret key"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:68
+msgid "Secret product key to use for API"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:75
+msgid "Version"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:76
+msgid "Version number for the software"
+msgstr ""
+
+#: lib/backend/controller/products/class-software.php:77
+msgid "e.g. 1.0"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:13
+msgid "WordPress"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:40
+msgid "Name"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:41
+msgid "Plugin name for the plugin info"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:42
+msgid "Plugin name"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:50
+msgid "Requires"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:51
+#: lib/backend/controller/products/class-wordpress.php:59
+msgid "Version number WordPress"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:58
+msgid "Tested"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:66
+msgid "Author"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:67
+#: lib/backend/controller/products/class-wordpress.php:84
+msgid "Software Author"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:75
+msgid "Last updated"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:76
+msgid "Latest update date"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:83
+msgid "Homepage"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:92
+msgid "Icon"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:93
+msgid "Plugin icon"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:101
+msgid "Banner low"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:102
+msgid "Image size of 772x250"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:110
+msgid "Banner high"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:111
+msgid "Image size of 1544x500"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:118
+msgid "Notice"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:119
+msgid "A notice to display in the upgrade alert"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:128
+msgid "Description"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:129
+msgid "Plugin description"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:140
+msgid "Screenshots"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:141
+msgid "Display screenshots tab with product galery images"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:154
+msgid "Changelog"
+msgstr ""
+
+#: lib/backend/controller/products/class-wordpress.php:155
+msgid "Plugin changelog description"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:61
+msgid "Prefix"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:62
+msgid "Optional prefix for generated license keys."
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:63
+#: lib/models/license/class-entity.php:67
+msgid "N/A"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:152
+#: lib/backend/controller/settings/class-license.php:90
+msgid "Automatic Updates File"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:153
+msgid "Select a file for the automatic updates."
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:166
+#: lib/backend/controller/products/variable/class-license.php:123
+msgid "Renewal price (%s)"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:167
+msgid "This is the price to renew the license support period"
+msgstr ""
+
+#: lib/backend/controller/products/simple/class-license.php:168
+#: lib/backend/controller/products/variable/class-license.php:125
+msgid "Renew license price"
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:85
+msgid "License Options"
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:113
+msgid "License Renew"
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:124
+msgid "License renew price after expiration period."
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:136
+msgid "License Upgrade"
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:167
+msgid "Price"
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:170
+msgid "Show price difference between actual variation and this variation. You must set final price."
+msgstr ""
+
+#: lib/backend/controller/products/variable/class-license.php:176
+#: lib/backend/controller/tables/view/class-list-table.php:87
+#: lib/models/activation/class-entity.php:60
+#: lib/models/activation/class-entity.php:67
+#: lib/models/activation/class-entity.php:76
+#: lib/models/license/class-entity.php:211
+#: lib/models/license/class-entity.php:220
+msgid "Active"
+msgstr ""
+
+#: lib/backend/controller/reports/class-load.php:38
+msgid "Activations by date"
+msgstr ""
+
+#: lib/backend/controller/reports/class-load.php:44
+msgid "Activations by product"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:99
+msgid "%s activations for the selected items"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:105
+msgid "%s licenses for the selected items"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:116
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:108
+msgid "Year"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:117
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:109
+msgid "Last month"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:118
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:110
+msgid "This month"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:119
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:111
+msgid "Last 7 days"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:146
+msgid "Showing reports for:"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:209
+#: lib/backend/controller/reports/view/class-activations-by-product.php:323
+#: lib/backend/controller/reports/view/class-activations-by-product.php:395
+#: lib/backend/controller/reports/view/class-activations-by-product.php:461
+msgid "No products found in range"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:216
+#: lib/backend/controller/settings/class-license.php:120
+msgid "Reset"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:223
+msgid "Product search"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:227
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:228
+msgid "Show"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:269
+msgid "Top sellers"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:330
+msgid "Top freebies"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:402
+msgid "Top earners"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:500
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:144
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:60
+msgid "Date"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:503
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:148
+msgid "Export CSV"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:515
+msgid "Choose a product to view stats"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:546
+msgid "Product licenses"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-activations-by-product.php:554
+msgid "Product activations"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:71
+msgid "%s total activations in this period"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:72
+msgid "This is the sum of the order totals after any refunds and including shipping and taxes"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:79
+msgid "%s average activations"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:86
+msgid "%s total license created"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:98
+msgid "%s total deactivations"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:192
+msgid "Number of items sold"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:200
+msgid "Average activations"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:210
+msgid "Licenses activations"
+msgstr ""
+
+#: lib/backend/controller/reports/view/class-licenses-by-date.php:219
+msgid "Licenses deactivations"
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:12
+#: lib/backend/controller/settings/class-account.php:27
+msgid "Account"
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:33
+msgid "Orders"
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:35
+msgid "Display licenses in user orders."
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:44
+msgid "Dashboard"
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:46
+msgid "Display licenses in user dashboard."
+msgstr ""
+
+#: lib/backend/controller/settings/class-account.php:58
+msgid "Display licenses tab in user account."
+msgstr ""
+
+#: lib/backend/controller/settings/class-email.php:34
+msgid "Display licenses in order emails."
+msgstr ""
+
+#: lib/backend/controller/settings/class-email.php:44
+msgid "Add custom title for the licenses in the emails."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:29
+msgid "Validate Envato licenses"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:34
+msgid "Validate"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:35
+msgid "Generate license when the license is validated"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:46
+msgid "API Key"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:47
+msgid "Include Envato API key"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:55
+#: templates/license/view.php:66
+msgid "Created"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:56
+msgid "Import the envato license creation date."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:67
+msgid "Import the envato license support expiration date."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:77
+msgid "Import the envato license activations limit."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:85
+#: lib/backend/controller/tables/view/class-list-table-activations.php:61
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:61
+#: templates/license/view.php:74
+#: templates/myaccount/licenses.php:12
+#: templates/myaccount/licenses.php:26
+msgid "Order"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:87
+msgid "Create order when the license is validated."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:98
+msgid "Order status"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:100
+msgid "Select the order status of the order created."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:107
+msgid "Order totals"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:108
+msgid "This will include the total of the order and sum in the order reports."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:119
+msgid "Order user"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:120
+msgid "This will create a user for the registrastion email and added to the order."
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:131
+msgid "Market Name"
+msgstr ""
+
+#: lib/backend/controller/settings/class-envato.php:132
+msgid "This is the name of market that will be displayed on the market column of the order admin table."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:33
+msgid "Generation"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:34
+#: lib/backend/controller/settings/class-license.php:66
+msgid "Order Status"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:35
+msgid "Create licenses when the order match this status"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:44
+#: templates/license/view.php:40
+#: templates/license/view.php:49
+#: templates/license/view.php:104
+#: templates/myaccount/licenses.php:41
+msgid "Renew"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:45
+msgid "Allow users to renew their licenses expiratio date. Make sure to include a renewal price."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:54
+#: templates/license/view.php:31
+#: templates/license/view.php:120
+#: templates/myaccount/licenses.php:44
+msgid "Upgrade"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:55
+msgid "Allow users to upgrade their licenes limits. Upgrade price are calculated based on the difference between the variable products prices."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:65
+msgid "Validation"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:67
+msgid "If you disable this option, all licenses will be validated, regardless of the order status."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:73
+msgid "All"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:81
+msgid "If you disable this option, all licenses will be validated, regardless of the product key on the client."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:92
+msgid "Automatic update require the license validation."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:100
+msgid "User Agent"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:101
+msgid "Automatic update require user agent validation."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:110
+msgid "User Permissions"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:111
+msgid "Deactivation"
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:112
+msgid "Allow users to deactivate license activations."
+msgstr ""
+
+#: lib/backend/controller/settings/class-license.php:121
+msgid "Allow users to reset their license activations."
+msgstr ""
+
+#: lib/backend/controller/settings/class-product.php:32
+msgid "Tab"
+msgstr ""
+
+#: lib/backend/controller/settings/class-product.php:34
+msgid "Display licenses in product tab."
+msgstr ""
+
+#: lib/backend/controller/settings/class-product.php:44
+msgid "Add custom title for the licenses tab."
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:12
+#: lib/backend/controller/settings/class-tools.php:27
+msgid "Tools"
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:33
+msgid "Data"
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:34
+msgid "Delete licenses"
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:35
+msgid "Delete licenses and activations on plugin uninstall."
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:43
+msgid "Delete product meta"
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:44
+msgid "Delete product meta on plugin uninstall."
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:52
+msgid "Delete user capability"
+msgstr ""
+
+#: lib/backend/controller/settings/class-tools.php:53
+msgid "Delete edit user role capability on plugin uninstall."
+msgstr ""
+
+#: lib/backend/controller/tables/class-activations.php:36
+#: lib/backend/controller/tables/class-activations.php:88
+msgid "Licenses Activations"
+msgstr ""
+
+#: lib/backend/controller/tables/class-activations.php:51
+#: lib/backend/controller/tables/class-licenses.php:53
+msgid "Search"
+msgstr ""
+
+#: lib/backend/controller/tables/class-activations.php:51
+msgid "Search by site"
+msgstr ""
+
+#: lib/backend/controller/tables/class-activations.php:64
+#: lib/backend/controller/tables/class-licenses.php:66
+msgid "Number of items per page"
+msgstr ""
+
+#: lib/backend/controller/tables/class-licenses.php:38
+#: lib/backend/controller/tables/class-licenses.php:90
+msgid "Licenses Keys"
+msgstr ""
+
+#: lib/backend/controller/tables/class-licenses.php:53
+msgid "Search by license key"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table-activations.php:64
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:65
+#: templates/license/view.php:94
+msgid "Updates Status"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table-activations.php:65
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:66
+#: templates/license/view.php:90
+msgid "Support Status"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table-activations.php:68
+msgid "Activation Instance"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table-activations.php:163
+msgid "Activation deleted"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table-licenses.php:162
+msgid "License deleted"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:38
+msgid "Filter by date"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:41
+msgid "All dates"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:71
+msgid "Filter by status"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:79
+#: lib/models/license/class-entity.php:208
+#: lib/models/license/class-entity.php:217
+msgid "Expired"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:106
+msgid "Filter by product"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:121
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:124
+msgid "Filter by registered customer"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:168
+msgid "Filter"
+msgstr ""
+
+#: lib/backend/controller/tables/view/class-list-table.php:173
+msgid "Empty Trash"
+msgstr ""
+
+#: lib/models/activation/class-entity.php:55
+#: lib/models/activation/class-entity.php:69
+#: lib/models/activation/class-entity.php:78
+msgid "Disabled"
+msgstr ""
+
+#: lib/models/license/class-entity.php:226
+msgid "Required"
+msgstr ""
+
+#: lib/models/license/class-entity.php:261
+msgid "Never"
+msgstr ""
+
+#: lib/models/license/class-entity.php:428
+msgid "None"
+msgstr ""
+
+#: lib/models/license/class-entity.php:434
+msgid "Order not found"
+msgstr ""
+
+#: lib/models/order/class-load.php:355
+msgid "subscription"
+msgstr ""
+
+#: lib/models/order/class-load.php:358
+msgid "order"
+msgstr ""
+
+#: lib/models/product/license/class-load.php:306
+msgid "Automatic updates disabled"
+msgstr ""
+
+#: templates/license/view.php:6
+msgid "Invalid license key %s"
+msgstr ""
+
+#: templates/license/view.php:8
+#: templates/license/view.php:20
+msgid "My account"
+msgstr ""
+
+#: templates/license/view.php:19
+msgid "Invalid order"
+msgstr ""
+
+#: templates/license/view.php:29
+msgid "Remaining activations is equal to zero"
+msgstr ""
+
+#: templates/license/view.php:38
+msgid "The license updates has expired on %s"
+msgstr ""
+
+#: templates/license/view.php:47
+msgid "The license support has expired on %s"
+msgstr ""
+
+#: templates/license/view.php:57
+msgid "License Key"
+msgstr ""
+
+#: templates/license/view.php:86
+msgid "Activations Status"
+msgstr ""
+
+#: templates/license/view.php:107
+msgid "Renew the \"%1$s\" license for %2$s %3$s."
+msgstr ""
+
+#: templates/license/view.php:111
+msgid "Renewal is not available for this license."
+msgstr ""
+
+#: templates/license/view.php:123
+msgid "Upgrade the \"%1$s\" license to get %2$s activations limit."
+msgstr ""
+
+#: templates/license/view.php:127
+msgid "Upgrade is not available for this license."
+msgstr ""
+
+#: templates/myaccount/licenses.php:4
+msgid "No licenses found."
+msgstr ""
+
+#: templates/myaccount/licenses.php:15
+msgid "Sites"
+msgstr ""
+
+#: templates/myaccount/licenses.php:35
+msgid "Limit"
+msgstr ""
+
+#: templates/myaccount/licenses.php:39
+msgid "View"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:24
+msgid "This plugin allows you to add custom fields to the checkout page, related to billing, shipping or additional fields sections."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:31
+msgid "It allows you to reduce the steps in the checkout process by skipping the shopping cart page. This can encourage buyers to shop more and quickly. You will increase your sales reducing cart abandonment."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:42
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:48
+msgid "Could you please give it a 5-star rating on WordPress? Your feedback boosts our motivation, helps us promote, and continues to improve this product. Your support matters!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:50
+msgid "Yes, of course!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:55
+msgid "Report a bug"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:63
+msgid "Purchase Now"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:69
+msgid "Hello! We have a special gift!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:74
+msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:83
+#: vendor_packages/wp-notice-plugin-promote.php:101
+#: vendor_packages/wp-notice-plugin-promote.php:119
+msgid "More info!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:93
+#: vendor_packages/wp-notice-plugin-promote.php:111
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:8
+msgid "Settings"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:13
+msgid "Premium"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:18
+msgid "Support"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:23
+msgid "Documentation"
+msgstr ""
+
+#: build/backend/js/index.js:1
+msgid "Are you sure?"
+msgstr ""
